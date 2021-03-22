@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+
+}
+
+#Navigation{
+  width: 100vw;
+  position: fixed;
+  background-color: #F8F8F8;
+  z-index: +1;
+}
+
+
+#Navigation ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 2rem;
+}
+
+#Navigation ul li a{
+  text-decoration: none;
+  color: #CEC5C8;
+}
+
+.HomeImage{
+  background-image: url("./homescreen.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+

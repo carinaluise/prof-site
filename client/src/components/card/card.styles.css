@@ -1,0 +1,43 @@
+#Card{
+    /* margin-left: 5%; */
+    margin-bottom: 5%; 
+    width: 20vw;
+    height: 30vh;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: .2s ease-in; 
+    padding: 55px;   
+    background-color: #F8F8F8;
+}
+
+#Card h1{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #CEC5C8;
+
+}
+
+#Card:hover{
+    transform: scale(1.1);
+}
+
+#Card a{
+    text-decoration: none;
+    color:  #CEC5C8;
+}
+
+#Card p{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;    
+    font-size: 1.5rem;
+ 
+    
+  
+}
+
+#Card img{
+    opacity: 0.5;
+    width: 60%;
+    height: 50%;
+    padding: 20px;
+}

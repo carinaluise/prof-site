@@ -1,0 +1,24 @@
+#About{
+  height: 100vh;
+  text-align: center;
+}
+
+#About h1{
+    color: #CEC5C8;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 7rem;
+}
+
+#About p{
+    font-family: 'Lato', sans-serif;
+    color:#504448;
+}
+
+#About img{
+  border-radius: 50%;
+  margin-top: 10%;
+}
+
+#About a{
+  color: #262022;
+}
